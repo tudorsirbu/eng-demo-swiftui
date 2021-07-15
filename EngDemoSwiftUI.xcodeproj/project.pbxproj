@@ -13,6 +13,14 @@
 		A6501746269E44D700A0E89E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6501731269E44D400A0E89E /* ContentView.swift */; };
 		A6501747269E44D700A0E89E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6501732269E44D700A0E89E /* Assets.xcassets */; };
 		A6501748269E44D700A0E89E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6501732269E44D700A0E89E /* Assets.xcassets */; };
+		A6501752269E451100A0E89E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6501751269E451100A0E89E /* User.swift */; };
+		A6501753269E451100A0E89E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6501751269E451100A0E89E /* User.swift */; };
+		A6501756269E453100A0E89E /* Booking.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6501755269E453100A0E89E /* Booking.swift */; };
+		A6501757269E453100A0E89E /* Booking.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6501755269E453100A0E89E /* Booking.swift */; };
+		A6501759269E46A400A0E89E /* DummyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6501758269E46A400A0E89E /* DummyData.swift */; };
+		A650175A269E46A400A0E89E /* DummyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6501758269E46A400A0E89E /* DummyData.swift */; };
+		A650175C269E46DD00A0E89E /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A650175B269E46DD00A0E89E /* Theme.swift */; };
+		A650175D269E46DD00A0E89E /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A650175B269E46DD00A0E89E /* Theme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,10 @@
 		A650173F269E44D700A0E89E /* EngDemoSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EngDemoSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6501741269E44D700A0E89E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6501742269E44D700A0E89E /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		A6501751269E451100A0E89E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		A6501755269E453100A0E89E /* Booking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Booking.swift; sourceTree = "<group>"; };
+		A6501758269E46A400A0E89E /* DummyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyData.swift; sourceTree = "<group>"; };
+		A650175B269E46DD00A0E89E /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +69,12 @@
 		A650172F269E44D400A0E89E /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				A6501754269E451900A0E89E /* Models */,
 				A6501730269E44D400A0E89E /* EngDemoSwiftUIApp.swift */,
 				A6501731269E44D400A0E89E /* ContentView.swift */,
 				A6501732269E44D700A0E89E /* Assets.xcassets */,
+				A6501758269E46A400A0E89E /* DummyData.swift */,
+				A650175B269E46DD00A0E89E /* Theme.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -88,6 +103,15 @@
 				A6501742269E44D700A0E89E /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		A6501754269E451900A0E89E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A6501751269E451100A0E89E /* User.swift */,
+				A6501755269E453100A0E89E /* Booking.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,7 +212,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6501745269E44D700A0E89E /* ContentView.swift in Sources */,
+				A6501756269E453100A0E89E /* Booking.swift in Sources */,
 				A6501743269E44D700A0E89E /* EngDemoSwiftUIApp.swift in Sources */,
+				A650175C269E46DD00A0E89E /* Theme.swift in Sources */,
+				A6501759269E46A400A0E89E /* DummyData.swift in Sources */,
+				A6501752269E451100A0E89E /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,7 +225,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6501746269E44D700A0E89E /* ContentView.swift in Sources */,
+				A6501757269E453100A0E89E /* Booking.swift in Sources */,
 				A6501744269E44D700A0E89E /* EngDemoSwiftUIApp.swift in Sources */,
+				A650175D269E46DD00A0E89E /* Theme.swift in Sources */,
+				A650175A269E46A400A0E89E /* DummyData.swift in Sources */,
+				A6501753269E451100A0E89E /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
